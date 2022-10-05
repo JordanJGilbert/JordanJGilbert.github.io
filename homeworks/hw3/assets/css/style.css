@@ -1,21 +1,17 @@
-/* PROBLEM 1: Remove white margin of body, html */
 html,
 body {
     margin: 0;
 }
 
-/* PROBLEM 2: Select profile picture and make it round */
 #profile-pic img {
     border-radius: 50%;
-    overflow: auto
+    overflow: clip;
 }
 
-/* PROBLEM 3: Flesh our your follow button! 5 px for the
-top and bottom, 30 for the left and right*/
 #follow-button {
     padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
     padding-left: 30px;
 }
 
